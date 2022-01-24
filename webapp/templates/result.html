@@ -10,6 +10,8 @@
 <body>
     <div id="container">
         <section>
+            <h3>Result</h3>
+            <br>
             {% for key, value in pred.items() %}
                 <p>{{ key }}: {{ '{:.2f}'.format(value * 100) }}%</p>
             {% endfor %}

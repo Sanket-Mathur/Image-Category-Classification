@@ -18,7 +18,22 @@ body {
 form {
     border: 2px solid black;
     padding: 2rem;
+    border-radius: 1rem;
+    background-color: antiquewhite;
 }
 input[type=submit] {
+    margin-top: 2rem;
+    padding: 0.5rem;
     width: 100%;
+    font-size: 1rem;
+    background-color: lawngreen;
+    border: 0;
+    border-radius: 0.5rem;
+}
+input[type=file]::file-selector-button {
+    background-color: lawngreen;
+    border: 0;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
 }
